@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Premium flour manufacturing and food production company. High-quality flour products with modern production technology.">
+    <meta name="keywords" content="flour manufacturing, food production, quality flour, industrial baking">
+    <meta name="author" content="Premium Flour Co.">
+    
+    <title>Premium Flour Manufacturing - Quality Food Products | Premium Flour Co.</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="navbar-header sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#home">
+                    <span class="brand-icon"><i class="fas fa-wheat"></i></span>
+                    <span class="brand-text">Premium Flour</span>
+                </a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#products">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#process">Process</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#news">News</a>
+                        </li>
+                    </ul>
+                    <button class="btn btn-contact ms-lg-3" href="#contact">Get In Touch</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-background" style="background-image: url('https://images.unsplash.com/photo-1585255469955-84277c2d5ea1?w=1600&h=900&fit=crop'); background-size: cover; background-position: center;">
+            <div class="hero-overlay"></div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center justify-content-center text-center">
+                    <div class="col-lg-8">
+                        <h1 class="hero-title">Quality Flour for Every Purpose</h1>
+                        <p class="hero-subtitle">Premium flour manufacturing with cutting-edge technology and decades of expertise</p>
+                        
+                        <div class="hero-buttons">
+                            <button class="btn btn-primary-cta" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">
+                                Start Ordering
+                                <i class="fas fa-arrow-right ms-2"></i>
+                            </button>
+                            <button class="btn btn-secondary-cta" onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'})">
+                                Learn More
+                                <i class="fas fa-play ms-2"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <span>Scroll to explore</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Company Section -->
+    <section id="about" class="about-section py-5">
+        <div class="container">
+            <div class="row align-items-center gap-5">
+                <!-- Image Column -->
+                <div class="col-lg-6">
+                    <div class="about-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?w=600&h=700&fit=crop" alt="Modern flour factory" class="about-image">
+                        <div class="about-image-badge">
+                            <span class="badge-number">50+</span>
+                            <span class="badge-text">Years of Excellence</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Content Column -->
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <span class="section-label">About Our Company</span>
+                        <h2 class="section-title">Crafting Quality Since 1974</h2>
+                        
+                        <p class="section-description">
+                            We are a leading flour manufacturing company committed to producing the finest quality flour products. With over five decades of experience, we've perfected our craft through continuous innovation and unwavering dedication to excellence.
+                        </p>
+                        
+                        <p class="section-description">
+                            Our state-of-the-art facilities utilize cutting-edge technology while maintaining traditional quality standards that our customers have trusted for generations.
+                        </p>
+                        
+                        <!-- Statistics -->
+                        <div class="about-stats">
+                            <div class="stat-item">
+                                <h3 class="stat-number" data-value="50">0</h3>
+                                <p class="stat-label">Years in Business</p>
+                            </div>
+                            <div class="stat-item">
+                                <h3 class="stat-number" data-value="100">0</h3>
+                                <p class="stat-label">Thousand Tons/Year</p>
+                            </div>
+                            <div class="stat-item">
+                                <h3 class="stat-number" data-value="500">0</h3>
+                                <p class="stat-label">Retailers</p>
+                            </div>
+                        </div>
+                        
+                        <button class="btn btn-read-more">
+                            Read Our Full Story
+                            <i class="fas fa-arrow-right ms-2"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Categories Section -->
+    <section id="products" class="products-section py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="section-label">Our Products</span>
+                <h2 class="section-title">Premium Flour Categories</h2>
+                <p class="section-subtitle">Discover our comprehensive range of flour products for every application</p>
+            </div>
+            
+            <div class="row g-4">
+                <!-- Product Card 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="product-card">
+                        <div class="product-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h3 class="product-title">All-Purpose Flour</h3>
+                        <p class="product-description">Versatile wheat flour suitable for baking bread, cakes, and pastries with perfect protein balance.</p>
+                        <ul class="product-features">
+                            <li><i class="fas fa-check"></i> Premium Quality</li>
+                            <li><i class="fas fa-check"></i> Fine Texture</li>
+                            <li><i class="fas fa-check"></i> 12% Protein</li>
+                        </ul>
+                        <button class="btn btn-product-cta">Learn More</button>
+                    </div>
+                </div>
+                
+                <!-- Product Card 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="product-card">
+                        <div class="product-icon">
+                            <i class="fas fa-bread-slice"></i>
+                        </div>
+                        <h3 class="product-title">Bread Flour</h3>
+                        <p class="product-description">High-protein flour engineered for professional bakers and artisan bread production.</p>
+                        <ul class="product-features">
+                            <li><i class="fas fa-check"></i> High Gluten</li>
+                            <li><i class="fas fa-check"></i> Strong Rise</li>
+                            <li><i class="fas fa-check"></i> 14% Protein</li>
+                        </ul>
+                        <button class="btn btn-product-cta">Learn More</button>
+                    </div>
+                </div>
+                
+                <!-- Product Card 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="product-card">
+                        <div class="product-icon">
+                            <i class="fas fa-cupcake"></i>
+                        </div>
+                        <h3 class="product-title">Cake Flour</h3>
+                        <p class="product-description">Soft, delicate flour perfect for creating tender cakes and pastries with fine crumb structure.</p>
+                        <ul class="product-features">
+                            <li><i class="fas fa-check"></i> Soft Texture</li>
+                            <li><i class="fas fa-check"></i> Tender Crumb</li>
+                            <li><i class="fas fa-check"></i> 8% Protein</li>
+                        </ul>
+                        <button class="btn btn-product-cta">Learn More</button>
+                    </div>
+                </div>
+                
+                <!-- Product Card 4 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="product-card">
+                        <div class="product-icon">
+                            <i class="fas fa-sprout"></i>
+                        </div>
+                        <h3 class="product-title">Whole Wheat Flour</h3>
+                        <p class="product-description">Nutritious whole grain flour packed with fiber and essential nutrients for healthy baking.</p>
+                        <ul class="product-features">
+                            <li><i class="fas fa-check"></i> 100% Whole Grain</li>
+                            <li><i class="fas fa-check"></i> High Fiber</li>
+                            <li><i class="fas fa-check"></i> Rich Nutrition</li>
+                        </ul>
+                        <button class="btn btn-product-cta">Learn More</button>
+                    </div>
+                </div>
+                
+                <!-- Product Card 5 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="product-card">
+                        <div class="product-icon">
+                            <i class="fas fa-gluten"></i>
+                        </div>
+                        <h3 class="product-title">Specialty Flours</h3>
+                        <p class="product-description">Custom blended specialty flours for unique applications and dietary requirements.</p>
+                        <ul class="product-features">
+                            <li><i class="fas fa-check"></i> Gluten-Free Option</li>
+                            <li><i class="fas fa-check"></i> Custom Blend</li>
+                            <li><i class="fas fa-check"></i> Organic Options</li>
+                        </ul>
+                        <button class="btn btn-product-cta">Learn More</button>
+                    </div>
+                </div>
+                
+                <!-- Product Card 6 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="product-card">
+                        <div class="product-icon">
+                            <i class="fas fa-industry"></i>
+                        </div>
+                        <h3 class="product-title">Industrial Flour</h3>
+                        <p class="product-description">Large-scale flour solutions for commercial bakeries, food manufacturers, and distributors.</p>
+                        <ul class="product-features">
+                            <li><i class="fas fa-check"></i> Bulk Supply</li>
+                            <li><i class="fas fa-check"></i> Consistent Quality</li>
+                            <li><i class="fas fa-check"></i> Custom Solutions</li>
+                        </ul>
+                        <button class="btn btn-product-cta">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Production Process Section -->
+    <section id="process" class="process-section py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="section-label">Our Process</span>
+                <h2 class="section-title">Advanced Production Technology</h2>
+                <p class="section-subtitle">Our state-of-the-art process ensures consistent quality at every stage</p>
+            </div>
+            
+            <div class="process-timeline">
+                <!-- Stage 1 -->
+                <div class="process-stage">
+                    <div class="stage-content">
+                        <div class="stage-icon">
+                            <i class="fas fa-seedling"></i>
+                        </div>
+                        <h3 class="stage-title">Sourcing</h3>
+                        <p class="stage-description">We source premium wheat varieties from certified suppliers, ensuring the highest quality raw materials for our production process.</p>
+                    </div>
+                </div>
+                
+                <div class="process-connector"></div>
+                
+                <!-- Stage 2 -->
+                <div class="process-stage">
+                    <div class="stage-content">
+                        <div class="stage-icon">
+                            <i class="fas fa-flask"></i>
+                        </div>
+                        <h3 class="stage-title">Testing</h3>
+                        <p class="stage-description">Every batch undergoes rigorous quality testing and analysis to verify protein content, purity, and moisture levels.</p>
+                    </div>
+                </div>
+                
+                <div class="process-connector"></div>
+                
+                <!-- Stage 3 -->
+                <div class="process-stage">
+                    <div class="stage-content">
+                        <div class="stage-icon">
+                            <i class="fas fa-cog"></i>
+                        </div>
+                        <h3 class="stage-title">Milling</h3>
+                        <p class="stage-description">Advanced milling equipment processes wheat into flour with precision, maintaining optimal grain size and consistency.</p>
+                    </div>
+                </div>
+                
+                <div class="process-connector"></div>
+                
+                <!-- Stage 4 -->
+                <div class="process-stage">
+                    <div class="stage-content">
+                        <div class="stage-icon">
+                            <i class="fas fa-box"></i>
+                        </div>
+                        <h3 class="stage-title">Packaging</h3>
+                        <p class="stage-description">Final quality checks and modern packaging in controlled environments ensure freshness and protection of our products.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="features-section py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="section-label">Why Choose Us</span>
+                <h2 class="section-title">What Sets Us Apart</h2>
+            </div>
+            
+            <div class="row g-4">
+                <!-- Feature 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3 class="feature-title">Superior Quality</h3>
+                        <p class="feature-description">Rigorous quality control and testing at every stage ensures our flour meets the highest industry standards.</p>
+                    </div>
+                </div>
+                
+                <!-- Feature 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3 class="feature-title">Food Safety</h3>
+                        <p class="feature-description">ISO certified facilities with comprehensive hygiene protocols and food safety certifications ensure product integrity.</p>
+                    </div>
+                </div>
+                
+                <!-- Feature 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-microchip"></i>
+                        </div>
+                        <h3 class="feature-title">Modern Technology</h3>
+                        <p class="feature-description">State-of-the-art milling equipment and automation ensures consistency and efficiency in every batch.</p>
+                    </div>
+                </div>
+                
+                <!-- Feature 4 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h3 class="feature-title">Global Distribution</h3>
+                        <p class="feature-description">Reliable logistics and distribution network ensures timely delivery to bakeries, retailers, and food manufacturers worldwide.</p>
+                    </div>
+                </div>
+                
+                <!-- Feature 5 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <h3 class="feature-title">Experience</h3>
+                        <p class="feature-description">Over 50 years of industry expertise and trusted partnerships with leading food manufacturers and bakers.</p>
+                    </div>
+                </div>
+                
+                <!-- Feature 6 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h3 class="feature-title">Sustainability</h3>
+                        <p class="feature-description">Committed to sustainable practices and environmental responsibility in all our manufacturing operations.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Counter Section -->
+    <section class="stats-section py-5">
+        <div class="stats-background" style="background-image: url('https://images.unsplash.com/photo-1554224311-beee415c201f?w=1600&h=600&fit=crop'); background-size: cover; background-position: center; background-attachment: fixed;">
+            <div class="stats-overlay"></div>
+            
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-3 col-6">
+                        <div class="stat-box">
+                            <h2 class="stat-counter" data-target="50">0</h2>
+                            <p class="stat-text">Years of Experience</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-3 col-6">
+                        <div class="stat-box">
+                            <h2 class="stat-counter" data-target="100">0</h2>
+                            <p class="stat-text">K Tons Annual Capacity</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-3 col-6">
+                        <div class="stat-box">
+                            <h2 class="stat-counter" data-target="500">0</h2>
+                            <p class="stat-text">Retail Partners</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-3 col-6">
+                        <div class="stat-box">
+                            <h2 class="stat-counter" data-target="5000">0</h2>
+                            <p class="stat-text">Active Customers</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Factory Showcase Section -->
+    <section class="gallery-section py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="section-label">Our Facilities</span>
+                <h2 class="section-title">State-of-the-Art Factory</h2>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item gallery-item-large" style="background-image: url('https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&h=600&fit=crop');">
+                    <div class="gallery-overlay">
+                        <button class="gallery-btn"><i class="fas fa-search-plus"></i></button>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" style="background-image: url('https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?w=400&h=400&fit=crop');">
+                    <div class="gallery-overlay">
+                        <button class="gallery-btn"><i class="fas fa-search-plus"></i></button>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" style="background-image: url('https://images.unsplash.com/photo-1585255469955-84277c2d5ea1?w=400&h=400&fit=crop');">
+                    <div class="gallery-overlay">
+                        <button class="gallery-btn"><i class="fas fa-search-plus"></i></button>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" style="background-image: url('https://images.unsplash.com/photo-1554224311-beee415c201f?w=400&h=400&fit=crop');">
+                    <div class="gallery-overlay">
+                        <button class="gallery-btn"><i class="fas fa-search-plus"></i></button>
+                    </div>
+                </div>
+                
+                <div class="gallery-item gallery-item-large" style="background-image: url('https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&h=600&fit=crop');">
+                    <div class="gallery-overlay">
+                        <button class="gallery-btn"><i class="fas fa-search-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News & Blog Section -->
+    <section id="news" class="news-section py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="section-label">Latest News</span>
+                <h2 class="section-title">Industry Updates & Insights</h2>
+            </div>
+            
+            <div class="row g-4">
+                <!-- Article 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <article class="article-card">
+                        <div class="article-image" style="background-image: url('https://images.unsplash.com/photo-1585255469955-84277c2d5ea1?w=400&h=300&fit=crop');"></div>
+                        
+                        <div class="article-content">
+                            <div class="article-meta">
+                                <span class="article-category">Technology</span>
+                                <span class="article-date">Jun 15, 2024</span>
+                            </div>
+                            
+                            <h3 class="article-title">New Milling Technology Enhances Quality</h3>
+                            <p class="article-excerpt">Discover how our latest milling equipment improves consistency and reduces production time while maintaining premium quality standards.</p>
+                            
+                            <a href="#" class="article-link">
+                                Read More
+                                <i class="fas fa-arrow-right ms-2"></i>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+                
+                <!-- Article 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <article class="article-card">
+                        <div class="article-image" style="background-image: url('https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?w=400&h=300&fit=crop');"></div>
+                        
+                        <div class="article-content">
+                            <div class="article-meta">
+                                <span class="article-category">Sustainability</span>
+                                <span class="article-date">Jun 10, 2024</span>
+                            </div>
+                            
+                            <h3 class="article-title">Commitment to Sustainable Practices</h3>
+                            <p class="article-excerpt">Learn about our environmental initiatives and how we're reducing our carbon footprint across all manufacturing operations.</p>
+                            
+                            <a href="#" class="article-link">
+                                Read More
+                                <i class="fas fa-arrow-right ms-2"></i>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+                
+                <!-- Article 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <article class="article-card">
+                        <div class="article-image" style="background-image: url('https://images.unsplash.com/photo-1554224311-beee415c201f?w=400&h=300&fit=crop');"></div>
+                        
+                        <div class="article-content">
+                            <div class="article-meta">
+                                <span class="article-category">Awards</span>
+                                <span class="article-date">Jun 5, 2024</span>
+                            </div>
+                            
+                            <h3 class="article-title">Industry Recognition for Quality Excellence</h3>
+                            <p class="article-excerpt">We're proud to announce our recognition as the top flour manufacturer in the region for consistent quality and innovation.</p>
+                            
+                            <a href="#" class="article-link">
+                                Read More
+                                <i class="fas fa-arrow-right ms-2"></i>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="contact" class="cta-section">
+        <div class="cta-background" style="background-image: url('https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=1600&h=600&fit=crop'); background-size: cover; background-position: center;">
+            <div class="cta-overlay"></div>
+        </div>
+        
+        <div class="container cta-content">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-8">
+                    <h2 class="cta-title">Ready to Partner With Us?</h2>
+                    <p class="cta-description">Contact our sales team to discuss your flour requirements and find the perfect solution for your business.</p>
+                    
+                    <button class="btn btn-primary-cta" onclick="alert('Contact form would open here')">
+                        Get Started Today
+                        <i class="fas fa-arrow-right ms-2"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row mb-5">
+                <!-- Company Info -->
+                <div class="col-md-3 col-6 mb-4">
+                    <div class="footer-brand">
+                        <span class="brand-icon"><i class="fas fa-wheat"></i></span>
+                        <span class="brand-text">Premium Flour</span>
+                    </div>
+                    <p class="footer-description">Leading flour manufacturer with 50+ years of excellence and commitment to quality.</p>
+                    <div class="social-links mt-4">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Quick Links -->
+                <div class="col-md-3 col-6 mb-4">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#process">Process</a></li>
+                        <li><a href="#news">News</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Products -->
+                <div class="col-md-3 col-6 mb-4">
+                    <h4 class="footer-title">Products</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">All-Purpose Flour</a></li>
+                        <li><a href="#">Bread Flour</a></li>
+                        <li><a href="#">Cake Flour</a></li>
+                        <li><a href="#">Whole Wheat</a></li>
+                        <li><a href="#">Specialty Flours</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact Info -->
+                <div class="col-md-3 col-6 mb-4">
+                    <h4 class="footer-title">Contact</h4>
+                    <ul class="footer-contact">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>123 Industrial Ave, Factory City, FC 12345</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+1234567890">+1 (234) 567-890</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:info@premiumflour.com">info@premiumflour.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Divider -->
+            <hr class="footer-divider">
+            
+            <!-- Bottom Footer -->
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="footer-copyright">
+                        &copy; 2024 Premium Flour Manufacturing. All rights reserved.
+                    </p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <ul class="footer-bottom-links">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
